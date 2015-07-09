@@ -1,0 +1,77 @@
+html, body, .map {
+    padding:0;
+    margin:0;
+    height:100%;
+	font-size: 13px;
+	overflow:hidden;
+}
+
+.BasemapToggle{
+	position: absolute;
+	z-index: 30;
+	top: 2px;
+}
+
+.LocateButton{
+	position: absolute;
+	z-index: 30;
+	left: 1%;
+	top: 116px;
+}
+.LocateButton .zoomLocateButton{
+	width: 34px;
+	height: 34px;
+}
+.simpleGeocoder{
+	position: absolute;
+	z-index: 30;
+	top: 5px;
+	left: 51px;
+	width: calc(100% - 58px);
+
+}
+
+.simpleGeocoder .esriGeocoderContainer {
+	width: 100%!important;
+}
+
+.esriSimpleSliderTL {
+	top: 45px;
+	left: 1%;
+	width: 34px;
+}
+.esriSimpleSlider div{
+	width: 34px!important;
+}
+
+.upperBar{
+	position: absolute;
+	z-index: 30;
+	width: 98%;
+	height: 42px;
+	left: 1%;
+}
+
+.BasemapToggle .toggleButton {
+	padding: 1px;
+	-webkit-border-radius: 30pxpx;
+	-moz-border-radius: 30pxpx;
+	-o-border-radius: 30pxpx;
+	border-radius: 30px;
+	overflow: hidden;
+	height: 33px;
+	width: 33px;
+}
+
+.BasemapToggle .basemapTitle {
+	display: none;
+}
+
+.BasemapToggle .basemapImage {
+	width: 33px;
+	height: 33px;
+	overflow: hidden;
+	border-radius: 30px;
+}
+
+

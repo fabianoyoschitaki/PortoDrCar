@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Porto Dr Car</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_screen">MainScreenActivity</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Títulos dos itens do menu -->
+    <string-array name="titulos_itens_gaveta">
+        <item>Lembretes</item>
+        <item>Agendamentos</item>
+        <item>Auto Diagnóstico</item>
+        <item>Rede Porto Seguro</item>
+        <item>Fale com a Porto</item>
+    </string-array>
+
+    <!-- Ícones dos itens do menu (mesma ordem dos títulos) -->
+    <array name="icones_itens_gaveta">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="descricao">descricao</string>
+    <string name="title_activity_lembrete_detalhe">LembreteDetalheActivity</string>
+    <string name="agendar_servico">Agendar Servico</string>
+    <string name="cancelar_agendamento">Cancelar Agendamento</string>
+    <string name="lembretes">Lembretes</string>
+    <string name="agendamentos">Agendamentos</string>
+    <string name="frequencia">Frequencia</string>
+    <string name="title_activity_agendamento_detalhe">AgendamentoDetalheActivity</string>
+    <string name="estabelecimento">Local:</string>
+    <string name="endereco">Endereco:</string>
+    <string name="telefone">Telefone:</string>
+    <string name="data">Data:</string>
+    <string name="horario">Hoario:</string>
+    <string name="dados_agendamento">Dados do Agendamento</string>
+    <string name="title_activity_agendamento_mapa">AgendamentoMapa</string>
+	<string name="title_activity_confirma_agendamento">ConfirmaAgendamentoActivity</string>
+	<string name="agendamento">Agendamento</string>
+</resources>

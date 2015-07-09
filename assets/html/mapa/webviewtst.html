@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <title>Teste</title>
+	<script src="jquery-1.11.0.min.js"></script>
+	<script>
+		
+		function testCall(msg){
+			$("#001").html(msg);
+			$("#txt01").val(msg);
+		}
+		
+		$(function(){
+			$("#bt01").click(function(){
+				var val = $("#txt01").val();
+				
+				Android.showToast(val);
+			});
+			
+			
+		});
+		
+	</script>
+  </head>
+  <body>
+	<h1 id='001'>Teste Web View Local File</h1>
+	
+	<input type="text" id="txt01" />
+	<button id="bt01">VAI!!</button>
+	
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.portoseguro.portodrcar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+	
+	<uses-permission 
+        android:name="android.permission.INTERNET" />
+	<uses-permission 
+	    android:name="android.permission.ACCESS_FINE_LOCATION" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/porto_seguro_icone"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.PortoDrCarSplashActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.TelaPrincipalActivity"
+            android:label="@string/title_activity_main_screen" >
+        </activity>
+        <activity
+            android:name=".activity.LembreteDetalheActivity"
+            android:label="@string/title_activity_lembrete_detalhe" >
+        </activity>
+        <activity
+            android:name="com.portoseguro.portodrcar.activity.AgendamentoDetalheActivity"
+            android:label="@string/title_activity_agendamento_detalhe" >
+        </activity>
+         <activity
+            android:name="com.portoseguro.portodrcar.activity.AgendamentoMapaActivity"
+            android:label="@string/title_activity_agendamento_mapa" >
+        </activity>
+        <activity
+            android:name="com.portoseguro.portodrcar.activity.ConfirmaAgendamentoActivity"
+            android:label="@string/title_activity_confirma_agendamento" >
+        </activity>
+    </application>
+
+</manifest>

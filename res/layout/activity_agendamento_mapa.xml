@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.portoseguro.portodrcar.activity.AgendamentoMapaActivity" >
+
+    <WebView
+        android:id="@+id/webview001"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="10dp" >
+    </WebView>
+
+    <ListView
+        android:id="@+id/postos_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:stackFromBottom="false"
+        android:transcriptMode="alwaysScroll" />
+
+</LinearLayout>
